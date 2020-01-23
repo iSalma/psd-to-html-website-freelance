@@ -40,7 +40,7 @@
 {
     height: 110px;
 }
-.carousel-item
+.home .carousel-item
 {
     height: 100% !important;
 }
@@ -165,7 +165,7 @@ font-weight: 600 !important;
 {
     clear: both;
 }
-.Home .carousel-control-prev,.carousel-control-next
+.carousel-control-prev,.carousel-control-next
 {
 height: 50px !important;
 width: 50px !important; 
