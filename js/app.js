@@ -3,10 +3,10 @@ $(document).ready(function() {
 
     var counters = $(".counting");
     var countersQuantity = counters.length;
-    var counter = [];
+    var counterr = [];
   
     for (i = 0; i < countersQuantity; i++) {
-      counter[i] = parseInt(counters[i].innerHTML);
+      counterr[i] = parseInt(counters[i].innerHTML);
     }
   
     var count = function(start, value, id) {
@@ -20,7 +20,7 @@ $(document).ready(function() {
     }
   
     for (j = 0; j < countersQuantity; j++) {
-      count(0, counter[j], j);
+      count(0, counterr[j], j);
     }
   });
 
