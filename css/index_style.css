@@ -4,7 +4,6 @@
 {
     box-sizing: border-box;
     direction: rtl !important;
-    text-align: right !important;
     font-family: 'Open Sans', sans-serif;
     height: 42rem;
 }
