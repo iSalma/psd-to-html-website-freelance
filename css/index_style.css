@@ -171,6 +171,13 @@ height: 50px !important;
 width: 50px !important; 
 top: 50%;
 }
+#NavSec
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 9999999999;
+}
 /********************/
 /*Sec1*/
 .Sec1
