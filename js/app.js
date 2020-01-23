@@ -1,7 +1,7 @@
 /*****************counter************/
 $(document).ready(function() {
 
-    var counters = $(".counter");
+    var counters = $(".counting");
     var countersQuantity = counters.length;
     var counter = [];
   
