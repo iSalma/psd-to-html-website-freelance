@@ -203,6 +203,7 @@ top: 50%;
 }
 .Sec1 .content a
 {
+	
     cursor: pointer;
     transition: color 0s 0s;
     font-size: 1.2rem;
