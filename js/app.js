@@ -1,4 +1,5 @@
 /*****************counter************/
+
 $(document).ready(function() {
 
     var counters = $(".counting");
