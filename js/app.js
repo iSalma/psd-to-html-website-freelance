@@ -20,7 +20,7 @@ $(window).on('scroll', function() {
                 localStart++;
                 counters[id].innerHTML = localStart;
               }
-            }, 150);
+            }, 40);
           }
         
           for (j = 0; j < countersQuantity; j++) {
