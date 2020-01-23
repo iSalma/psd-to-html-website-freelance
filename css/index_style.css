@@ -172,6 +172,12 @@ top: 50%;
 }
 /********************/
 /*Sec1*/
+.Sec1
+{
+  box-sizing: border-box;
+  direction: rtl !important;
+  font-family: 'Open Sans', sans-serif;
+}
 .Sec1 .content h1,.Sec1 .content i
 {
     text-align: center;
