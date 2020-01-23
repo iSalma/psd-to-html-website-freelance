@@ -33,6 +33,7 @@ $('.scene')
 .on('click', '#prevBtn', nextPage);
 
 function nextPage() {
+    
   $('.flipped')
     .last()
     .removeClass('flipped')
