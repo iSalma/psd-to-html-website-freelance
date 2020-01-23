@@ -1,5 +1,177 @@
 /*css*/
-
+/*******Header*******/
+.Home
+{
+    box-sizing: border-box;
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: 'Open Sans', sans-serif;
+    height: 42rem;
+}
+.Home .sliderLayer
+{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.Home .Slide_1
+{
+    position: relative;
+    height: 100%;
+    background:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.Home .Slide_2
+{
+    height: 100%;
+    background-image:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.Home .Slide_3
+{
+    height: 100%;
+    background-image:url('../images/slider1.jpg');
+    background-size: 100% 100%;
+}
+.Home img
+{
+    height: 110px;
+}
+.carousel-item
+{
+    height: 100% !important;
+}
+.Home .navbar a,.Home .navIcon
+{
+    color: rgb(0,96,44);
+    font-size: 1.3rem !important;
+}
+.navIcon
+{
+    margin-top:1rem!important; 
+}
+.Home .desc
+{
+    color: white;
+    text-align: right;
+}
+.Home .desc h1
+{
+    font-size: 3.2rem !important;
+    font-weight: 600;
+}
+.Home .desc h2
+{
+    font-size: 2.5rem !important;
+    font-weight: 400;
+}
+.Home .desc p
+{
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.home .desc
+{
+    position: relative;
+}
+.text-white
+{
+    color: white !important;
+}
+.text-green
+{
+    color:rgb(0,96,44) !important;
+}
+.home .headFooterButtons
+{
+    position: absolute;
+    bottom: 0;
+}
+.headFooterButtons a
+{
+    cursor: pointer;
+    font-size: 1.3rem !important;
+    background-color: white !important;
+    padding:1rem 1rem;
+    transition: background-color 0s,color 0s;
+}
+.headFooterButtons a:hover
+{
+    background-color:rgb(186, 156,92) !important;
+    color: white !important;
+}
+.Home .Slide_1 .border-bottom , .Home .Slide_2 .border-bottom, .Home .Slide_3 .border-bottom
+{
+    border-bottom: solid 1px white !important;
+}
+.j
+{
+    width: 48%;
+}
+.bg-gold
+{
+    background-color:rgb(186, 156,92);
+}
+.bg-darkGray
+{
+    background-color: rgb(48,49,50);
+}
+.bg-Gray
+{
+    background-color: rgb(121,122,122);
+}
+.bg-lightGray
+{
+    background-color:rgb(228,228,228);
+}
+.above_nav
+{
+    background-color:rgb(186, 156,92);    
+}
+.Home .Slide_1 .navbar-brand , .Home .Slide_2 .navbar-brand  ,.Home .Slide_3 .navbar-brand ,.navbar-brand i
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.1rem;
+    font-weight: 900 !important;
+    letter-spacing: 3px !important;
+    line-height: 0.2rem !important;
+}
+.Home .NavLinks 
+{
+    font-size: 0.875rem !important;
+    line-height: 1.56rem !important;
+    font-weight: 400 !important; 
+    color: rgb(55, 75, 61) !important;
+}
+.Home .Desc_H h1
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 4.4rem !important;
+    color: white !important;
+    line-height: 2.25rem !important;
+    margin-bottom: 2.3rem !important;
+}
+.nav-link 
+{
+font-size: 0.875rem !important;
+font-weight: 600 !important;
+}
+.clr
+{
+    clear: both;
+}
+.Home .carousel-control-prev,.carousel-control-next
+{
+height: 50px !important;
+width: 50px !important; 
+top: 50%;
+}
+/********************/
 /*Sec1*/
 .Sec1 .content h1,.Sec1 .content i
 {
