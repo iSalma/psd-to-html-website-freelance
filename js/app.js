@@ -69,8 +69,7 @@ document.addEventListener("keydown" , function(e){
 /*************************************
  * END FLIP BOOK
  ************************************/
-
- /*************************************
+/*************************************
  * CONTACT US MAP
  ************************************/
 var myImages = Array.from(document.querySelectorAll(".containContact .contactImg"));
@@ -187,6 +186,7 @@ document.addEventListener("keydown" , function(e){
     }
 
 })
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGF2aWRndWFuIiwiYSI6ImNpcG50N2s4NDAwNGRmbG5jeXZtMHkxMW4ifQ.ubiXybBxhpidF83H-Zvz7Q';
 
 if ("geolocation" in navigator) {
