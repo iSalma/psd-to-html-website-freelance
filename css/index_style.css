@@ -697,14 +697,14 @@ background-color:rgb(186, 156,92);
   
 #prevBtn{
     position: absolute;
-    bottom: 10px;
-    left: -90%;
+    bottom: 1px;
+    left: -99%;
 }
 
 #nextBtn{
     position: absolute;
-    bottom: 10px;
-    right: 10%;
+    bottom: 1px;
+    right: 3px;
 }
 
 #nextBtn:hover 
