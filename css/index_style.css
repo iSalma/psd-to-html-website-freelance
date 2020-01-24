@@ -184,6 +184,9 @@ top: 50%;
 .search
 {
     background-color: rgb(48,49,50);
+    box-sizing: border-box;
+    direction: rtl !important;
+    font-family: 'Open Sans', sans-serif;
 }
 .search ::-webkit-input-placeholder { 
     color: white;
@@ -382,6 +385,9 @@ body
 {
     background:url('../images/slider1.jpg');
     background-size: 100% 100%;
+    box-sizing: border-box;
+    direction: rtl !important;
+    font-family: 'Open Sans', sans-serif;
 }
 .booksDarker
 {
