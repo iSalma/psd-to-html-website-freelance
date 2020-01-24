@@ -383,6 +383,7 @@ body
 .sec2
 {
   box-sizing: border-box;
+  direction: rtl !important;
   font-family: 'Open Sans', sans-serif;
 }
 .sec2 .new 
