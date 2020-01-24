@@ -379,6 +379,45 @@ body
 }
 /**************End Sec1****************/
 
+/*************Sec 2********************/
+.sec2
+{
+  box-sizing: border-box;
+  direction: rtl !important;
+  font-family: 'Open Sans', sans-serif;
+}
+.sec2 .new 
+{
+   border-bottom: 1px bottom black;
+}
+.sec2 .new img
+{
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+.sec2 .new p
+{
+    color: rgb(0,96,44);
+    font-size: 1.1rem;
+}
+.sec2 a
+{
+    text-decoration: none;
+    color: rgb(186, 156,92) ;
+    font-size: 1.2rem;
+} 
+.sec2Footer p
+{
+    color: rgb(0,96,44);
+    font-size: 1.2rem;
+}
+.sec2Head i,.sec2Head p
+{
+    color: rgb(186, 156,92) ;
+    font-size: 1.4rem;
+}
+/*************end sec2*****************/
+
 
 /***********Books show*****************/
 .books
