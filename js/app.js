@@ -26,6 +26,21 @@ $(window).on('scroll', function() {
           for (j = 0; j < countersQuantity; j++) {
             count(0, counter[j], j);
           }
+    
+         /**Handle fixed parts**/
+        if($(window).scrollTop()>($('.search').offset().top + $('.search').outerHeight() - window.innerHeight)+($('.search').outerHeight()+250))
+          {
+            document.getElementById("fixedRight").style.display="block";
+            document.getElementById("fixedLeft").style.display="block";
+          }
+          else
+          {
+            document.getElementById("fixedRight").style.display="none";
+            document.getElementById("fixedLeft").style.display="none";
+          }
+         /**********************/
+    
+             
 }); 
 
 /***********************************/
