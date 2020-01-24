@@ -385,6 +385,7 @@ body
   box-sizing: border-box;
   direction: rtl !important;
   font-family: 'Open Sans', sans-serif;
+ text-align:right !important;
 }
 .sec2 .new 
 {
