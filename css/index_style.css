@@ -187,7 +187,6 @@ top: 50%;
     box-sizing: border-box;
     direction: rtl !important;
     font-family: 'Open Sans', sans-serif;
-    text-align:center !important;
 }
 .search ::-webkit-input-placeholder { 
     color: white;
@@ -202,7 +201,7 @@ top: 50%;
   }
   .search,.search button 
   {
-      font-size: 1rem !important;
+      font-size: 1.2rem !important;
   }
 /********************/
 /*Sec1*/
