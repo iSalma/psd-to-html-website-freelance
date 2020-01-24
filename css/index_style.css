@@ -830,7 +830,7 @@ background-color:rgb(186, 156,92);
     right: 0;
  }
 
- .contain{
+ .containContact{
      position: relative;
  }
  .infoCircle{
@@ -882,6 +882,7 @@ background-color:rgb(186, 156,92);
     bottom: 30px;
     margin: auto;
 }
+
 .contact-h,.location{
     background-color: rgb(208,188,144);
 }
@@ -889,6 +890,7 @@ background-color:rgb(186, 156,92);
 /********************************************
 		END	CONTACT US MAP
 **********************************************/
+
 /*************************************
 * END FOOTER
 ***************************************/
