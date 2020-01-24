@@ -1,4 +1,84 @@
 /*css*/
+/****Fixed parts****/
+  #fixedRight
+  {      
+        position: fixed;
+        right: 0;
+        top: 50%;
+        border:3px solid rgb(0,96,44);
+        border-left: 3px solid rgb(0,96,44);
+        border-radius: 24px 0px 0px 25px;
+        font-size: 1.2rem;
+        font-weight: 600;
+      display: none;
+      z-index: 99999;
+
+  }
+  #fixedLeft
+  {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border:3px solid rgb(0,96,44);
+    border-radius: 0px 24px 24px 0px;  
+    display: none;
+    z-index: 99999;
+}
+.qrImgSm
+
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 14px 14px 14px 14px;
+}
+.qrImgLg
+{
+    width: 160px;
+    height: 160px;
+}
+  .rsideLinks
+  {
+      font-size: 1rem;
+      border: none !important;
+      margin-top: 1rem;
+      display: none;
+  }
+  .rsideLink i
+  {
+      margin-left: 0.5rem;
+      font-size: 0.7rem;
+      margin-top: 0.5rem;
+  }
+  .lsideLinks
+  {
+      display: none;
+      margin-top: 1rem;
+  }
+  .border-white
+  {
+      border-color: white;
+  }
+  .hLine
+  {
+      border:solid 2px rgb(0,96,44) ;
+      margin-bottom: 1rem;
+  }
+  #fixedRight:hover .rsideLinks
+  {
+      display: block;
+  }
+  #fixedLeft:hover .lsideLinks
+  {
+      display:block;
+  }
+  .rsideLink
+  {
+      margin-bottom: 0.8rem;
+  }
+/********************/
 /*******Header*******/
 .Home
 {
