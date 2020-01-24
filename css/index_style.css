@@ -170,6 +170,7 @@
 {
     position: absolute;
     bottom: 0;
+    padding-bottom: 15px;
 }
 .headFooterButtons a
 {
@@ -183,6 +184,19 @@
 {
     background-color:rgb(186, 156,92) !important;
     color: white !important;
+}
+.headFooterButtons #a1:hover
+{
+    padding: 24px;
+
+}
+.headFooterButtons #a2:hover
+{
+    padding: 24px;
+}
+.headFooterButtons #a3:hover
+{
+    padding: 24px;
 }
 .Home .Slide_1 .border-bottom , .Home .Slide_2 .border-bottom, .Home .Slide_3 .border-bottom
 {
