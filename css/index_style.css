@@ -179,6 +179,28 @@ top: 50%;
     z-index: 9999999999;
 }
 /********************/
+
+/******Search********/
+.search
+{
+    background-color: rgb(48,49,50);
+}
+.search ::-webkit-input-placeholder { 
+    color: white;
+  }
+  
+  .search :-ms-input-placeholder { 
+    color: white;
+  }
+  
+  .search::placeholder {
+    color: white;
+  }
+  .search,.search button 
+  {
+      font-size: 1.2rem !important;
+  }
+/********************/
 /*Sec1*/
 .Sec1
 {
