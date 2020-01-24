@@ -1,5 +1,4 @@
 /*****************counter************/
-
 $(window).on('scroll', function() { 
     if ($(window).scrollTop()>= $( 
       '#counterjs').offset().top + $('#counterjs'). 
