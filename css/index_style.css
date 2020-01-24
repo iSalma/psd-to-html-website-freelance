@@ -728,6 +728,52 @@ background-color:rgb(186, 156,92);
 		CONTACT US MAP
 **********************************************/
 
+.lightbox-container
+{
+    background-color: rgba(0,0,0,0.55);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    transform: scale(0,0);
+    z-index: 99;
+}
+
+.lightbox-item
+{
+    width: 50%;
+    height:550px;
+    background-size: 100% 100%;
+    position: relative;
+    transform: scale(0,0);
+    transition: transform 1s;
+}
+
+.lightbox-item i, .contact-h i
+{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+#close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#prevOut{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+#nextOut{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
 #contactUS{
     text-align: center;
 }
