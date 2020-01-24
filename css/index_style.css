@@ -3,6 +3,7 @@
   #fixedRight
   {     box-sizing: border-box;
         direction: rtl !important;
+	text-align:right !important;
         position: fixed;
         right: 0;
         top: 50%;
