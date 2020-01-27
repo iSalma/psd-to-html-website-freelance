@@ -1,4 +1,31 @@
-/*****************counter************/
+/*************************************
+ *SLIDER OF HEADER
+************************************/
+var slide_index = 1;  
+displaySlides(slide_index);  
+function nextSlide(n) {  
+    displaySlides(slide_index += n);  
+}  
+function currentSlide(n) {  
+    displaySlides(slide_index = n);  
+}  
+function displaySlides(n) {  
+    var i;  
+    var slides = document.getElementsByClassName("showSlide");  
+    if (n > slides.length) { slide_index = 1 }  
+    if (n < 1) { slide_index = slides.length }  
+    for (i = 0; i < slides.length; i++) {  
+        slides[i].style.display = "none";  
+    }  
+    slides[slide_index - 1].style.display = "block";  
+}
+/*************************************
+ *END SLIDER OF HEADER
+************************************/
+/*************************************
+ *COUNTER + FIXED PARTITIONS 
+ ************************************/
+/****COUNTER HANDLE****/
 $(window).on('scroll', function() { 
     if ($(window).scrollTop()>= $( 
       '#counterjs').offset().top + $('#counterjs'). 
@@ -26,7 +53,7 @@ $(window).on('scroll', function() {
             count(0, counter[j], j);
           }
     
-         /**Handle fixed parts**/
+        /****FIXED PARTITIONS HANDLE****/
         if($(window).scrollTop()>($('.search').offset().top + $('.search').outerHeight() - window.innerHeight)+($('.search').outerHeight()+250))
           {
             document.getElementById("fixedRight").style.display="block";
@@ -41,8 +68,9 @@ $(window).on('scroll', function() {
     
              
 }); 
-
-/***********************************/
+/*************************************
+ * END COUNTER + FIXED PARTITIONS 
+ ************************************/
 /*************************************
  * FLIP BOOK
  ************************************/
@@ -231,27 +259,6 @@ if ("geolocation" in navigator) {
 /*************************************
  *  END CONTACT US  MAP
  ************************************/
-
-
-
-var slide_index = 1;  
-displaySlides(slide_index);  
-function nextSlide(n) {  
-    displaySlides(slide_index += n);  
-}  
-function currentSlide(n) {  
-    displaySlides(slide_index = n);  
-}  
-function displaySlides(n) {  
-    var i;  
-    var slides = document.getElementsByClassName("showSlide");  
-    if (n > slides.length) { slide_index = 1 }  
-    if (n < 1) { slide_index = slides.length }  
-    for (i = 0; i < slides.length; i++) {  
-        slides[i].style.display = "none";  
-    }  
-    slides[slide_index - 1].style.display = "block";  
-}
 
 
 
