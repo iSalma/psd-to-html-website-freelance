@@ -56,224 +56,277 @@
 </div>
 <!--end fixed parts-->
 <!--Header-->
- <header class="Home">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="Slide_1">
-                      <div class="container t" id="NavSec">
-                        <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
-                            <img src="images/nav-logo.jpg" class="img-fluid" alt="">
-                            <div class="w-100">
-                                <div class="above_nav py-2">
-                                    <div class="d-flex justify-content-around">
-                                        <div class="headerB d-flex">
-                                            <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
-                                            <div class="dropdown">
-                                                <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                   اللغة | العربية
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                  <a class="dropdown-item" href="#">العربية</a>
-                                                  <a class="dropdown-item" href="#">english</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
-                                        <p class="pt-3">librariy@brandename.com</p>
-                                        <div class="d-flex pt-3">
-                                            <i class="fab fa-instagram pl-1"></i>
-                                            <i class="fab fa-twitter pl-1"></i>
-                                            <i class="fab fa-youtube pl-1"></i>
-                                            <i class="fab fa-facebook-square"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <nav class="navbar navbar-expand-md bg-white py-3">
-                                    <div class="container">
-                                        <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-                                            <div class="navbar-nav w-100 d-flex justify-content-between">
-                                                <i class="fas fa-home navIcon"></i>
-                                                <a class="nav-item nav-link active" href="#">عنوان<span class="sr-only">(current)</span></a>
-                                                <a class="nav-item nav-link" href="#">عنوان 1</a>
-                                                <a class="nav-item nav-link" href="#">عنوان 2</a>
-                                                <a class="nav-item nav-link " href="#">عنوان 3</a>
-                                                <a class="nav-item nav-link " href="#">عنوان 4</a>
-                                            </div>
-            
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div> 
-                        </div>
-                    </div> 
-                </div>
-                <div class="sliderLayer">       
-                    <div class="container desc h-100 d-flex justify-content-center align-items-center">
-                        <div class="m-auto w-75">
-                            <h2>انت تبحث عن كتاب؟</h2>
-                            <h1>مكتبة المسجد النبوى</h1>
-                            <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
-                        </div>
-                        <div class="headFooterButtons m-auto w-75 d-flex">
-                            <div><a id="a1" class="text-green">التصانيف</a></div>
-                           <div> <a id="a2" class="text-green">الفهرس الموضوعى</a> </div>
-                           <div> <a id="a3" class="text-green">عنوان</a></div>
-                        </div>
-                    </div>
-                </div>
+ <header class="Home bg-primary">
+    <div class="slidercontainer w-100">  
+        <div class="showSlide active w-100">  
+            <div class="SliderContent">
+                <div class="Slide_1 bg-white">
+                    <div class="container t" id="NavSec">
+                      <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
+                          <img src="images/nav-logo.jpg" class="img-fluid" alt="">
+                          <div class="w-100">
+                              <div class="above_nav py-2">
+                                  <div class="d-flex justify-content-around">
+                                      <div class="headerB d-flex">
+                                          <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
+                                          <div class="dropdown">
+                                              <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                 اللغة | العربية
+                                              </button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">العربية</a>
+                                                <a class="dropdown-item" href="#">english</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
+                                      <p class="pt-3">librariy@brandename.com</p>
+                                      <div class="headIcons d-flex pt-3">
+                                          <i class="fab fa-instagram pl-1"></i>
+                                          <i class="fab fa-twitter pl-1"></i>
+                                          <i class="fab fa-youtube pl-1"></i>
+                                          <i class="fab fa-facebook-square"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <nav class="navbar navbar-expand-md bg-white py-3">
+                                  <div class="container">
+                                      <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+                                          <div class="navbar-nav w-100 d-flex justify-content-between">
+                                              <i class="fas fa-home navIcon"></i>
+                                              <a class="nav-item nav-link" href="#">عنوان<span class="sr-only">(current)</span></a>
+                                              <a class="nav-item nav-link" href="#">عنوان 1</a>
+                                              <a class="nav-item nav-link" href="#">عنوان 2</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 3</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 4</a>
+                                          </div>
+          
+                                      </div>
+                                  </div>
+                              </nav>
+                          </div> 
+                      </div>
+                  </div> 
               </div>
-
-
-
-
-
-              <div class="carousel-item">
-                <div class="Slide_2">
-                     <div class="container t" id="NavSec">
-                        <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
-                            <img src="images/nav-logo.jpg" class="img-fluid" alt="">
-                            <div class="w-100">
-                                <div class="above_nav py-2">
-                                    <div class="d-flex justify-content-around">
-                                        <div class="headerB d-flex">
-                                            <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
-                                            <div class="dropdown">
-                                                <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                   اللغة | العربية
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                  <a class="dropdown-item" href="#">العربية</a>
-                                                  <a class="dropdown-item" href="#">english</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
-                                        <p class="pt-3">librariy@brandename.com</p>
-                                        <div class="d-flex pt-3">
-                                            <i class="fab fa-instagram pl-1"></i>
-                                            <i class="fab fa-twitter pl-1"></i>
-                                            <i class="fab fa-youtube pl-1"></i>
-                                            <i class="fab fa-facebook-square"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <nav class="navbar navbar-expand-md bg-white py-3">
-                                    <div class="container">
-                                        <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-                                            <div class="navbar-nav w-100 d-flex justify-content-between">
-                                                <i class="fas fa-home navIcon"></i>
-                                                <a class="nav-item nav-link active" href="#">عنوان<span class="sr-only">(current)</span></a>
-                                                <a class="nav-item nav-link" href="#">عنوان 1</a>
-                                                <a class="nav-item nav-link" href="#">عنوان 2</a>
-                                                <a class="nav-item nav-link " href="#">عنوان 3</a>
-                                                <a class="nav-item nav-link " href="#">عنوان 4</a>
-                                            </div>
-            
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div> 
-                        </div>
-                    </div> 
-                </div>
-                <div class="sliderLayer">       
-                    <div class="container desc h-100 d-flex justify-content-center align-items-center">
-                        <div class="m-auto w-75">
-                            <h2>انت تبحث عن كتاب؟</h2>
-                            <h1>مكتبة المسجد النبوى</h1>
-                            <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
-                        </div>
-                        <div class="headFooterButtons m-auto w-75 d-flex">
-                            <a class="text-green">التصانيف</a>
-                            <a class="text-green">الفهرس الموضوعى</a>
-                            <a class="text-green">عنوان</a>
-                        </div>
-                    </div>
-                </div>
+              <div class="sliderLayer h-100">       
+                  <div class="container desc h-100 d-flex justify-content-center align-items-center">
+                      <div class="m-auto w-75">
+                          <h2>انت تبحث عن كتاب؟</h2>
+                          <h1>مكتبة المسجد النبوى</h1>
+                          <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
+                      </div>
+                      <div class="headFooterButtons m-auto w-75 d-flex">
+                         <div><a id="a1" class="text-green">التصانيف</a></div>
+                         <div> <a id="a2" class="text-green">الفهرس الموضوعى</a> </div>
+                         <div> <a id="a3" class="text-green">عنوان</a></div>
+                      </div>
+                  </div>
               </div>
-
-
-
-              <div class="carousel-item">
-                <div class="Slide_3">
-                     <div class="container t" id="NavSec">
-                        <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
-                            <img src="images/nav-logo.jpg" class="img-fluid" alt="">
-                            <div class="w-100">
-                                <div class="above_nav py-2">
-                                    <div class="d-flex justify-content-around">
-                                        <div class="headerB d-flex">
-                                            <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
-                                            <div class="dropdown">
-                                                <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                   اللغة | العربية
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                  <a class="dropdown-item" href="#">العربية</a>
-                                                  <a class="dropdown-item" href="#">english</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
-                                        <p class="pt-3">librariy@brandename.com</p>
-                                        <div class="d-flex pt-3">
-                                            <i class="fab fa-instagram pl-1"></i>
-                                            <i class="fab fa-twitter pl-1"></i>
-                                            <i class="fab fa-youtube pl-1"></i>
-                                            <i class="fab fa-facebook-square"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <nav class="navbar navbar-expand-md bg-white py-3">
-                                    <div class="container">
-                                        <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-                                            <div class="navbar-nav w-100 d-flex justify-content-between">
-                                                <i class="fas fa-home navIcon"></i>
-                                                <a class="nav-item nav-link active" href="#">عنوان<span class="sr-only">(current)</span></a>
-                                                <a class="nav-item nav-link" href="#">عنوان 1</a>
-                                                <a class="nav-item nav-link" href="#">عنوان 2</a>
-                                                <a class="nav-item nav-link " href="#">عنوان 3</a>
-                                                <a class="nav-item nav-link " href="#">عنوان 4</a>
-                                            </div>
-            
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div> 
-                        </div>
-                    </div> 
-                </div>
-                <div class="sliderLayer">       
-                    <div class="container desc h-100 d-flex justify-content-center align-items-center">
-                        <div class="m-auto w-75">
-                            <h2>انت تبحث عن كتاب؟</h2>
-                            <h1>مكتبة المسجد النبوى</h1>
-                            <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
-                        </div>
-                        <div class="headFooterButtons m-auto w-75 d-flex">
-                            <a class="text-green">التصانيف</a>
-                            <a class="text-green">الفهرس الموضوعى</a>
-                            <a class="text-green">عنوان</a>
-                        </div>
-                    </div>
-                </div>
+            </div>  
+        </div>  
+        <div class="showSlide active w-100">  
+            <div class="SliderContent">
+                <div class="Slide_1 bg-white">
+                    <div class="container t" id="NavSec">
+                      <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
+                          <img src="images/nav-logo.jpg" class="img-fluid" alt="">
+                          <div class="w-100">
+                              <div class="above_nav py-2">
+                                  <div class="d-flex justify-content-around">
+                                      <div class="headerB d-flex">
+                                          <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
+                                          <div class="dropdown">
+                                              <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                 اللغة | العربية
+                                              </button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">العربية</a>
+                                                <a class="dropdown-item" href="#">english</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
+                                      <p class="pt-3">librariy@brandename.com</p>
+                                      <div class="headIcons d-flex pt-3">
+                                          <i class="fab fa-instagram pl-1"></i>
+                                          <i class="fab fa-twitter pl-1"></i>
+                                          <i class="fab fa-youtube pl-1"></i>
+                                          <i class="fab fa-facebook-square"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <nav class="navbar navbar-expand-md bg-white py-3">
+                                  <div class="container">
+                                      <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+                                          <div class="navbar-nav w-100 d-flex justify-content-between">
+                                              <i class="fas fa-home navIcon"></i>
+                                              <a class="nav-item nav-link" href="#">عنوان<span class="sr-only">(current)</span></a>
+                                              <a class="nav-item nav-link" href="#">عنوان 1</a>
+                                              <a class="nav-item nav-link" href="#">عنوان 2</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 3</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 4</a>
+                                          </div>
+          
+                                      </div>
+                                  </div>
+                              </nav>
+                          </div> 
+                      </div>
+                  </div> 
               </div>
-
-            </div>
-            
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <div class="clr"></div>
-            <a class="carousel-control-next" href="#carouselExampleControls"role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-    </header>
-
+              <div class="sliderLayer h-100">       
+                  <div class="container desc h-100 d-flex justify-content-center align-items-center">
+                      <div class="m-auto w-75">
+                          <h2>انت تبحث عن كتاب؟</h2>
+                          <h1>مكتبة المسجد النبوى</h1>
+                          <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
+                      </div>
+                      <div class="headFooterButtons m-auto w-75 d-flex">
+                         <div><a id="a1" class="text-green">التصانيف</a></div>
+                         <div> <a id="a2" class="text-green">الفهرس الموضوعى</a> </div>
+                         <div> <a id="a3" class="text-green">عنوان</a></div>
+                      </div>
+                  </div>
+              </div>
+            </div>  
+        </div> 
+        <div class="showSlide w-100">  
+            <div class="SliderContent">
+                <div class="Slide_2 bg-white">
+                    <div class="container t" id="NavSec">
+                      <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
+                          <img src="images/nav-logo.jpg" class="img-fluid" alt="">
+                          <div class="w-100">
+                              <div class="above_nav py-2">
+                                  <div class="d-flex justify-content-around">
+                                      <div class="headerB d-flex">
+                                          <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
+                                          <div class="dropdown">
+                                              <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                 اللغة | العربية
+                                              </button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">العربية</a>
+                                                <a class="dropdown-item" href="#">english</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
+                                      <p class="pt-3">librariy@brandename.com</p>
+                                      <div class="headIcons d-flex pt-3">
+                                          <i class="fab fa-instagram pl-1"></i>
+                                          <i class="fab fa-twitter pl-1"></i>
+                                          <i class="fab fa-youtube pl-1"></i>
+                                          <i class="fab fa-facebook-square"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <nav class="navbar navbar-expand-md bg-white py-3">
+                                  <div class="container">
+                                      <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+                                          <div class="navbar-nav w-100 d-flex justify-content-between">
+                                              <i class="fas fa-home navIcon"></i>
+                                              <a class="nav-item nav-link" href="#">عنوان<span class="sr-only">(current)</span></a>
+                                              <a class="nav-item nav-link" href="#">عنوان 1</a>
+                                              <a class="nav-item nav-link" href="#">عنوان 2</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 3</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 4</a>
+                                          </div>
+          
+                                      </div>
+                                  </div>
+                              </nav>
+                          </div> 
+                      </div>
+                  </div> 
+              </div>
+              <div class="sliderLayer h-100">       
+                  <div class="container desc h-100 d-flex justify-content-center align-items-center">
+                      <div class="m-auto w-75">
+                          <h2>انت تبحث عن كتاب؟</h2>
+                          <h1>مكتبة المسجد النبوى</h1>
+                          <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
+                      </div>
+                      <div class="headFooterButtons m-auto w-75 d-flex">
+                         <div><a id="a1" class="text-green">التصانيف</a></div>
+                         <div> <a id="a2" class="text-green">الفهرس الموضوعى</a> </div>
+                         <div> <a id="a3" class="text-green">عنوان</a></div>
+                      </div>
+                  </div>
+              </div>
+            </div>  
+        </div>  
+        <div class="showSlide w-100">  
+            <div class="SliderContent">
+                <div class="Slide_3 bg-white">
+                    <div class="container t" id="NavSec">
+                      <div class="d-flex justify-content-stretch pr-2  bg-white text-white">
+                          <img src="images/nav-logo.jpg" class="img-fluid" alt="">
+                          <div class="w-100">
+                              <div class="above_nav py-2">
+                                  <div class="d-flex justify-content-around">
+                                      <div class="headerB d-flex">
+                                          <button class="ml-2 btn btn-outline-light"><i class="fas fa-user ml-2"></i>تسجيل الدخول </button>
+                                          <div class="dropdown">
+                                              <button class="btn btn-outline-light dropdown-toggle py-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                 اللغة | العربية
+                                              </button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">العربية</a>
+                                                <a class="dropdown-item" href="#">english</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <p class="pt-3">الأحد 24/5/1441 ه 19- يناير 2020 م</p>
+                                      <p class="pt-3">librariy@brandename.com</p>
+                                      <div class="headIcons d-flex pt-3">
+                                          <i class="fab fa-instagram pl-1"></i>
+                                          <i class="fab fa-twitter pl-1"></i>
+                                          <i class="fab fa-youtube pl-1"></i>
+                                          <i class="fab fa-facebook-square"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <nav class="navbar navbar-expand-md bg-white py-3">
+                                  <div class="container">
+                                      <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+                                          <div class="navbar-nav w-100 d-flex justify-content-between">
+                                              <i class="fas fa-home navIcon"></i>
+                                              <a class="nav-item nav-link" href="#">عنوان<span class="sr-only">(current)</span></a>
+                                              <a class="nav-item nav-link" href="#">عنوان 1</a>
+                                              <a class="nav-item nav-link" href="#">عنوان 2</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 3</a>
+                                              <a class="nav-item nav-link " href="#">عنوان 4</a>
+                                          </div>
+          
+                                      </div>
+                                  </div>
+                              </nav>
+                          </div> 
+                      </div>
+                  </div> 
+              </div>
+              <div class="sliderLayer h-100">       
+                  <div class="container desc h-100 d-flex justify-content-center align-items-center">
+                      <div class="m-auto w-75">
+                          <h2>انت تبحث عن كتاب؟</h2>
+                          <h1>مكتبة المسجد النبوى</h1>
+                          <p>هذا نص تجريبى لاختبار شكل و حجم النصوص و طريقة عرضها فى هذا المكان و حجم و لون الخط حيث يمكن التحسكم فى هذا النص و امكانية تغيره فى اى وقت عن طريق ادارة</p>
+                      </div>
+                      <div class="headFooterButtons m-auto w-75 d-flex">
+                         <div><a id="a1" class="text-green">التصانيف</a></div>
+                         <div> <a id="a2" class="text-green">الفهرس الموضوعى</a> </div>
+                         <div> <a id="a3" class="text-green">عنوان</a></div>
+                      </div>
+                  </div>
+              </div>
+            </div>  
+        </div>
+        <!-- Navigation arrows -->  
+        <a class="rightbutton" onclick="nextSlide(1)">❮</a>  
+        <a class="leftbutton" onclick="nextSlide(-1)">❯</a>  
+    </div>  
+</header>
 <!--end Header-->
 <!----Search--->
     <div class="search py-2">
@@ -353,7 +406,7 @@
         </div>
 <!--end sec1-->
    <!--Sec2-->
-    <div class="Sec2">
+    <div class="Sec2 py-4">
     <div class="container">
         <div class="sec2Head bg-lightGray d-flex mb-2">
             <div class="w-50 d-flex justify-content-between">
@@ -434,7 +487,7 @@
 </div>
 <!--end sec2-->    
 <!--Books show-->
-    <div class="booksShow books">
+    <div class="booksShow my-3 books">
         <div class="booksDarker">
         <div class="container my-2 py-5">
             <div class="aboveBooks row justify-content-between text-center my-4">
@@ -460,17 +513,30 @@
                     <div class="bookItemLayer">
                         <div class="text-center h-100 row align-items-center justify-content-center">
                             <div>
-                            <h1>اسم الكتاب</h1>
-                            <div class="starsIcons d-flex justify-content-center">
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <h3>اسم المؤلف</h3>
-                            <h2>السعر : 50$</h2>
-                            <button class="btn btn-outline-light">اضافة للحساب</button>
+                                <div class="d-flex">
+                                    <h2>اسم الكتاب: </h2>
+                                     <label>تتتتتتتت</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>التصنيف: </h2>
+                                    <label>210</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>المؤلف: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الناشر: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الطبعة: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الطبعة: </h2>
+                                    <label>تاريخ الطبع: </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -481,17 +547,30 @@
                     <div class="bookItemLayer">
                         <div class="text-center h-100 row align-items-center justify-content-center">
                             <div>
-                            <h1>اسم الكتاب</h1>
-                            <div class="starsIcons d-flex justify-content-center">
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <h3>اسم المؤلف</h3>
-                            <h2>السعر : 50$</h2>
-                            <button class="btn btn-outline-light">اضافة للحساب</button>
+                                <div class="d-flex">
+                                    <h2>اسم الكتاب: </h2>
+                                     <label>تتتتتتتت</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>التصنيف: </h2>
+                                    <label>210</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>المؤلف: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الناشر: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الطبعة: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الطبعة: </h2>
+                                    <label>تاريخ الطبع: </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -502,17 +581,30 @@
                     <div class="bookItemLayer">
                         <div class="text-center h-100 row align-items-center justify-content-center">
                             <div>
-                            <h1>اسم الكتاب</h1>
-                            <div class="starsIcons d-flex justify-content-center">
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <h3>اسم المؤلف</h3>
-                            <h2>السعر : 50$</h2>
-                            <button class="btn btn-outline-light">اضافة للحساب</button>
+                                <div class="d-flex">
+                                    <h2>اسم الكتاب: </h2>
+                                     <label>تتتتتتتت</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>التصنيف: </h2>
+                                    <label>210</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>المؤلف: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الناشر: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الطبعة: </h2>
+                                    <label>تاللبببببييب</label>
+                                </div>
+                                <div class="d-flex">
+                                    <h2>الطبعة: </h2>
+                                    <label>تاريخ الطبع: </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -523,18 +615,32 @@
                     <div class="bookItemLayer">
                         <div class="text-center h-100 row align-items-center justify-content-center">
                             <div>
-                            <h1>اسم الكتاب</h1>
-                            <div class="starsIcons d-flex justify-content-center">
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
+                            <div class="d-flex">
+                                <h2>اسم الكتاب: </h2>
+                                 <label>تتتتتتتت</label>
                             </div>
-                            <h3>اسم المؤلف</h3>
-                            <h2>السعر : 50$</h2>
-                            <button class="btn btn-outline-light">اضافة للحساب</button>
+                            <div class="d-flex">
+                                <h2>التصنيف: </h2>
+                                <label>210</label>
                             </div>
+                            <div class="d-flex">
+                                <h2>المؤلف: </h2>
+                                <label>تاللبببببييب</label>
+                            </div>
+                            <div class="d-flex">
+                                <h2>الناشر: </h2>
+                                <label>تاللبببببييب</label>
+                            </div>
+                            <div class="d-flex">
+                                <h2>الطبعة: </h2>
+                                <label>تاللبببببييب</label>
+                            </div>
+                            <div class="d-flex">
+                                <h2>الطبعة: </h2>
+                                <label>تاريخ الطبع: </label>
+                            </div>
+
+                        </div>
                         </div>
                     </div> 
                 </div>
@@ -623,7 +729,7 @@ Books show end
             </div>
         </div>
     </div> -->
-    <section class="flip-book">
+    <section class="flip-book pt-4 pb-1">
     <h1 id="b-main-head">المكتبات الوقفية</h1>
     <div class="b-red"></div>
  
@@ -959,7 +1065,7 @@ Books show end
     <!-------------------------------------
     MEMBERSHIP
  -------------------------------------->
-    <section id="membership">
+    <section id="membership" class="pb-2">
         <h3 id="member-main-head">كن عضوا في المكتبة</h3>
 
         <div class=" trial m-auto w-50">
