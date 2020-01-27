@@ -1,11 +1,26 @@
 /*css*/
+
+
+
 /*************************************
-*Fixed Parts
+*BODY
+***************************************/
+body
+  {
+      box-sizing: border-box;
+  }
+
+/*************************************
+*END BODY
+***************************************/
+
+/*************************************
+*FIXED PARTITIONS
 ***************************************/
   #fixedRight
   {     box-sizing: border-box;
         direction: rtl !important;
-	text-align:right !important;
+	    text-align:right !important;
         position: fixed;
         right: 0;
         top: 50%;
@@ -14,11 +29,12 @@
         border-radius: 24px 0px 0px 25px;
         font-size: 1rem;
         font-weight: 600;
-      display: none;
+        display: none;
       z-index: 99999;
 
   }
- #fixedRight a 
+  
+  #fixedRight a 
   {
       transition: color 0s;
   }
@@ -91,12 +107,12 @@
   {
       margin-bottom: 0.8rem;
   }
-/*************************************
-* END FIXED PARTS
-***************************************/
+/********************************************
+END FIXED PARTITIONS SECTION
+**********************************************/
 
 /*************************************
-* Header
+*HEADER
 ***************************************/
 .Home
 {
@@ -125,13 +141,13 @@
 .Home .Slide_2
 {
     height: 100%;
-    background-image:url('../images/slider1.jpg');
+    background-image:url('../images/lib1.jpg');
     background-size: 100% 100%;
 }
 .Home .Slide_3
 {
     height: 100%;
-    background-image:url('../images/slider1.jpg');
+    background-image:url('../images/lib3.jpg');
     background-size: 100% 100%;
 }
 .Home img
@@ -290,12 +306,59 @@ top: 50%;
     top: 0;
     z-index: 9999999999;
 }
-/*************************************
-* END HEADER
-***************************************/
+.home .headIcons i
+{
+    font-size: 1.2rem;
+}
+
+.slidercontainer {  
+    position: relative;  
+    margin: auto;  
+    height: 100%;
+}  
+
+.showSlide {  
+    display: none  
+}  
+.home .leftbutton,.home .rightbutton {  
+    cursor: pointer;  
+    position: absolute;  
+    top: 50%;  
+    width: auto;  
+    padding: 1.2rem;  
+    margin-top: -22px;  
+    color: white !important;  
+    font-size: 2.5rem;  
+    transition: 0.6s ease;  
+    border-radius: 0 3px 3px 0;  
+} 
+.left:hover, .right:hover {  
+    background-color: rgb(186, 156,92) ;  
+}  
+.rightbutton {  
+    right:20px;  
+    border-radius: 3px 0 0 3px;  
+}  
+.leftbutton {  
+    left: 20px;  
+    border-radius: 3px 0 0 3px;  
+} 
+
+.home .SliderContent 
+{  
+    width: 100%;  
+    height: 100%;
+}  
+.active {  
+    background-color: #717171;  
+}  
+
+/********************************************
+END HEADER SECTION
+**********************************************/
 
 /*************************************
-* SEARCH
+*SEARCH
 ***************************************/
 .search
 {
@@ -319,13 +382,12 @@ top: 50%;
   {
       font-size: 1.2rem !important;
   }
-/*************************************
-* END SEARCH
-***************************************/
+/********************************************
+END SEARCH SECTION
+**********************************************/
 
-
 /*************************************
-* SECTION 1
+*SECTION 1
 ***************************************/
 .Sec1
 {
@@ -493,18 +555,12 @@ top: 50%;
     }
 
 }
-/**/
-
-body
-{
-    box-sizing: border-box;
-}
-/*************************************
-* END SECTION 1
-***************************************/
+/********************************************
+END SECTION 1
+**********************************************/
 
 /*************************************
-* SECTION 2
+*SHOW NEWS
 ***************************************/
 .sec2
 {
@@ -543,12 +599,12 @@ body
     color: rgb(186, 156,92) ;
     font-size: 1.4rem;
 }
-/*************************************
-* END SECTION 2
-***************************************/
+/********************************************
+END SHOW NEWS SECTION
+**********************************************/
 
 /*************************************
-* Books Show
+*BOOKS SHOW
 ***************************************/
 .books
 {
@@ -593,35 +649,17 @@ body
 {
     top:0%;
 }
-.bookItemLayer h1
-{
-    font-size: 1.6rem;
-    font-weight: 800;
-    line-height: 1.0909090909 rem;
-    padding: 1rem 0rem;
-}
 .bookItemLayer i
 {
     font-size: 1rem;
     font-weight: 300;
     padding-bottom: 1rem;
 }
-.bookItemLayer h3
-{
-    font-size: 1.2rem;
-    font-weight: 300;
-    padding-bottom: 0.2rem;
-}
 .bookItemLayer h2
 {
-    font-size: 1.6rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-}
-.bookItemLayer button
-{
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
 }
 .aboveBooks a,.aboveBooks i
 {
@@ -630,6 +668,7 @@ body
 }
 .aboveBooks a
 {
+    border-color: white !important;
     text-decoration: none;
     transition: color 0s 0s , background-color 0s 0s;
 }
@@ -643,10 +682,9 @@ color:white;
 background-color:rgb(186, 156,92);
 }
 
-
-/*************************************
-* END BOOKS SHOW
-***************************************/
+/********************************************
+END BOOKS SHOW SECTION
+**********************************************/
 
 /********************************************
 COUNTER UP SECTION
@@ -848,7 +886,6 @@ END COUNTER UP SECTION
     color: rgb(186, 156,92);
 
 }
-
 .readMore{
     text-align: center;
 }
@@ -920,7 +957,7 @@ END COUNTER UP SECTION
 
 
 /********************************************
-		CONTACT US MAP
+CONTACT US MAP
 **********************************************/
 
 .lightbox-container
@@ -1055,11 +1092,11 @@ END COUNTER UP SECTION
 }
 
 /********************************************
-END	CONTACT US MAP
+END CONTACT US MAP
 **********************************************/
 
 /*************************************
-* END FOOTER
+*FOOTER
 ***************************************/
 .footer{
     background-color: rgb(186, 156,92);
